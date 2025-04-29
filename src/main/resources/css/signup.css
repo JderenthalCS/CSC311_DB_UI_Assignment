@@ -1,0 +1,46 @@
+
+#rootpane {
+    -fx-background-color: linear-gradient(to bottom right, #004d40, #002b23); /* Deep dark green */
+    -fx-padding: 20;
+}
+
+#titleLabel, .login_title {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.login_label {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+
+#usernameTextField, #passwordField {
+    -fx-font-size: 16px;
+    -fx-background-color: white;
+    -fx-border-color: #004d40;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8 12 8 12;
+}
+
+#newAccountBtn, #goBackBtn {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-color: #00695c; /* Button base color */
+    -fx-border-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+#newAccountBtn:hover, #goBackBtn:hover {
+    -fx-background-color: #00a58a; /* Lighter green/teal hover */
+    -fx-text-fill: black;
+}
+
+#titleLabel {
+    -fx-text-fill: white;
+}

@@ -1,0 +1,28 @@
+.anchor_pane {
+    -fx-background-color: linear-gradient(to bottom right, #004d40, #002b23);
+    -fx-padding: 20;
+}
+
+.about_text_area {
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Soft white semi-transparent */
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: #004d40;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+}
+
+.label {
+    -fx-text-fill: #002b23;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+.text-area {
+    -fx-control-inner-background: #002b23; /* same dark green/black tone */
+    -fx-background-color: #002b23;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-border-color: transparent;
+}

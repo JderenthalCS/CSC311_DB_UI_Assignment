@@ -1,0 +1,146 @@
+
+/* Background Anchor */
+.anchor_pane {
+    -fx-background-color: linear-gradient(to bottom right, #000000, #00332c);
+}
+
+/* Left Panel */
+.left_pane {
+    -fx-background-color: #001a17;
+    -fx-padding: 15px;
+}
+
+/* Admin Section (Bottom) */
+.admin_section {
+    -fx-background-color: #001a17;
+    -fx-padding: 5px;
+}
+
+/* Text Fields and Combo Boxes */
+.text_field, .combo_box {
+    -fx-background-color: #121212;
+    -fx-border-color: #004d40;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8 12 8 12;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* Text Field Container */
+.text_field_pane {
+    -fx-background-color: #001a17;
+}
+
+/* Database Buttons */
+.db_btn {
+    -fx-background-color: #004d40;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: white;
+    -fx-padding: 6 14 6 14;
+    -fx-cursor: hand;
+}
+
+.db_btn:hover {
+    -fx-background-color: #00a58a;
+    -fx-text-fill: black;
+}
+
+/* Image View */
+.image_view {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+/* Menu Bar */
+.menu_bar {
+    -fx-background-color: linear-gradient(to bottom, #000000, #00332c);
+    -fx-padding: 5 10 5 10;
+}
+
+/* Menu Options */
+.menu_options {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Menu Items */
+.menu_items {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+
+.menu_items:hover {
+    -fx-background-color: #00695c;
+    -fx-text-fill: white;
+}
+
+/* Table View */
+.table_view {
+    -fx-background-color: rgba(0, 51, 44, 0.9);
+    -fx-background-image: url("../images/fsclogo.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 250px 250px;
+    -fx-border-color: #004d40;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+}
+
+/* Table Columns */
+.table_columns {
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Table Cells */
+.table_view .cell {
+    -fx-cell-size: 35;
+    -fx-alignment: center-left;
+    -fx-background-color: #222;
+    -fx-border-color: #29292D;
+    -fx-text-fill: lightgray;
+}
+
+/* Selected Row */
+.table-row-cell:selected {
+    -fx-background-color: #00a58a;
+    -fx-text-fill: black;
+}
+
+/* Status Label at Bottom */
+#statusLabel {
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-alignment: center;
+}
+
+/* Major ComboBox */
+#majorComboBox {
+    -fx-font-size: 13px;
+    -fx-pref-width: 140px;
+    -fx-background-color: #121212;
+    -fx-border-color: #004d40;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Scrollbar */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+}
+
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #00a58a;
+    -fx-background-radius: 2em;
+}
+

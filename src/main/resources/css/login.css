@@ -1,0 +1,49 @@
+/* Login and Sign-up Screens CSS */
+
+/* Root Background */
+.grid_pane {
+    -fx-background-color: linear-gradient(to bottom right, #004d40, #002b23);
+    -fx-padding: 20;
+}
+
+/* Title Label (FSC Student Enrollment Manager) */
+.login_title {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Labels for Username and Password */
+.login_label {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+
+/* Username and Password Fields */
+.login_text_field, .login_password_field {
+    -fx-font-size: 16px;
+    -fx-background-color: white;
+    -fx-border-color: #004d40;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8 12 8 12;
+}
+
+/* Buttons (Login & Sign Up) */
+.button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-color: #00695c; /* Button base color */
+    -fx-border-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+/* Button Hover */
+.button:hover {
+    -fx-background-color: #00a58a; /* Lighter green/teal hover */
+    -fx-text-fill: black;
+}
