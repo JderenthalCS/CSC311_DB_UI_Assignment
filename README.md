@@ -71,8 +71,7 @@ It allows administrative users to efficiently manage student enrollment records 
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-link>
-   ```
+   git clone https://github.com/JderenthalCS/CSC311_DB_UI_Assignment.git
 
 2. Open the project in IntelliJ IDEA (or your preferred Java IDE).
 
