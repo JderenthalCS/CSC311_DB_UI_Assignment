@@ -49,7 +49,7 @@ It allows administrative users to efficiently manage student enrollment records 
   - Modernized the scrollbars to match FSC's branding.
 - **Export Major Report to "PDF" (Text File)**  
   - Generate a report summarizing student counts per major (CSC, CPIS, ENGLISH, etc.) and save it to a file.
-  - [📄 View Major Report (PDF)](resources/reports/majorReport.pdf)
+  - [📄 View Sample Major Report (PDF)](src/main/resources/reports/majorReport.pdf)
 - **New Menu Tab: Import/Export**
   - Moved "Import CSV", "Export CSV", and "Export PDF Report" into a clean "Import/Export" menu.
 - **Dark Mode / Light Mode Toggle**
@@ -59,11 +59,11 @@ It allows administrative users to efficiently manage student enrollment records 
 
 ## Interface Preview
 
-### 🖼 Login Screen
-![Login Screen](images/login.png)
+### 🖥️ Login Screen
+![Login Screen](src/main/resources/images/login.png)
 
-### 🖼 Main Interface
-![Main Application Interface](images/interface.png)
+### 📋 Dashboard Interface
+![Main Interface](src/main/resources/images/interface.png)
 
 ---
 
